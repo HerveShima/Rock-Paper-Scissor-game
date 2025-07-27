@@ -36,7 +36,7 @@ def play_rps():
             continue
 
         print(f'You chose: {user_choice.upper()}')
-        choices = ['R', 'P', 'S']
+        choices = ['R', 'P', 'S'] #R for Rock, P for Paper and S for Scissor
         opp_choice = random.choice(choices)
         print(f'Computer chose: {opp_choice}')
 
