@@ -1,7 +1,7 @@
 import random
 import os
 import re
-import COunter
+
 
 def check_play_status():
     valid_responses = ['yes', 'no', 'y']
@@ -57,4 +57,5 @@ def play_rps():
 
 if __name__ == '__main__':
     play_rps()
+
 
